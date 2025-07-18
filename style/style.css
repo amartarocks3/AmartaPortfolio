@@ -13,6 +13,11 @@
   font-style: normal;
   font-size: 34px;
 }
+@media screen and (max-width: 767px) {
+  .themecontainer nav .container .navbar-brand {
+    font-size: 22px;
+  }
+}
 .themecontainer nav .container .collapse .navbar-nav .nav-link {
   font-family: "Poppins", sans-serif;
   color: #222 !important;
@@ -45,12 +50,27 @@
   border-right: 3px solid #222;
   animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
 }
+@media screen and (max-width: 767px) {
+  .themecontainer .container .banner h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .themecontainer .container .banner h1 {
+    font-size: 35px;
+  }
+}
 .themecontainer .container .banner .subtitle {
   opacity: 0;
   animation: fadeIn 2s ease forwards;
   animation-delay: 3.2s;
   font-size: 20px;
   margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .themecontainer .container .banner .subtitle {
+    font-size: 18px;
+  }
 }
 .themecontainer .container .banner .cta {
   display: inline-block;
@@ -121,6 +141,11 @@
   color: white;
   padding: 0 40px;
 }
+@media screen and (max-width: 576px) {
+  .themecontainer .animation .marque .marque-section-3 .marquee-item span {
+    font-size: 32px;
+  }
+}
 .themecontainer .animation .marque .marque-section-3 .marquee-item span img {
   vertical-align: middle;
   height: 40px;
@@ -134,11 +159,6 @@
 }
 .themecontainer .animation .marque .marque-section-3 .marquee-item span {
   color: #222;
-}
-@media screen and (max-width: 767px) {
-  .themecontainer .animation .marque .marque-section-3 {
-    top: -160px;
-  }
 }
 .themecontainer.dark-theme {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -175,6 +195,16 @@
   overflow: hidden;
   border-right: 3px solid #ffffff;
   animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+}
+@media screen and (max-width: 767px) {
+  .themecontainer.dark-theme .container .banner h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .themecontainer.dark-theme .container .banner h1 {
+    font-size: 35px;
+  }
 }
 .themecontainer.dark-theme .container .banner .subtitle {
   opacity: 0;
@@ -252,6 +282,11 @@
   color: white;
   padding: 0 40px;
 }
+@media screen and (max-width: 576px) {
+  .themecontainer.dark-theme .animation .marque .marque-section-3 .marquee-item span {
+    font-size: 32px;
+  }
+}
 .themecontainer.dark-theme .animation .marque .marque-section-3 .marquee-item span img {
   vertical-align: middle;
   height: 40px;
@@ -265,11 +300,6 @@
 }
 .themecontainer.dark-theme .animation .marque .marque-section-3 .marquee-item span {
   color: #ffffff;
-}
-@media screen and (max-width: 767px) {
-  .themecontainer.dark-theme .animation .marque .marque-section-3 {
-    top: -160px;
-  }
 }
 
 @keyframes marqueeLeft {

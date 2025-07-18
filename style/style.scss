@@ -13,6 +13,10 @@
                 font-weight: 500;
                 font-style: normal;
                 font-size: 34px;
+                @media screen and (max-width: 767px) {
+                    font-size: 22px;
+                    
+                }
             }
 
             .collapse {
@@ -58,6 +62,12 @@
                 overflow: hidden;
                 border-right: 3px solid #222;
                 animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+                @media screen and (max-width: 767px) {
+                    font-size: 48px;
+                }
+                @media screen and (max-width: 576px) {
+                    font-size: 35px;
+                }
             }
 
             .subtitle {
@@ -66,6 +76,9 @@
                 animation-delay: 3.2s;
                 font-size: 20px;
                 margin-top: 10px;
+                @media screen and (max-width: 576px) {
+                    font-size: 18px;
+                }
             }
 
             .cta {
@@ -147,7 +160,10 @@
                         text-align: center;
                         color: white;
                         padding: 0 40px;
-
+                        @media screen and (max-width: 576px) {
+                            font-size: 32px;
+                            
+                        }
                         img {
                             vertical-align: middle;
                             height: 40px;
@@ -171,9 +187,7 @@
                     }
                 }
 
-                @media screen and (max-width: 767px) {
-                    top: -160px;
-                }
+               
             }
         }
     }
@@ -230,6 +244,12 @@
                     overflow: hidden;
                     border-right: 3px solid #ffffff;
                     animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+                    @media screen and (max-width: 767px) {
+                    font-size: 48px;
+                }
+                @media screen and (max-width: 576px) {
+                    font-size: 35px;
+                }
                 }
 
                 .subtitle {
@@ -318,7 +338,10 @@
                             text-align: center;
                             color: white;
                             padding: 0 40px;
-
+                            @media screen and (max-width: 576px) {
+                            font-size: 32px;
+                            
+                        }
                             img {
                                 vertical-align: middle;
                                 height: 40px;
@@ -342,9 +365,7 @@
                         }
                     }
 
-                    @media screen and (max-width: 767px) {
-                        top: -160px;
-                    }
+                   
                 }
             }
         }
